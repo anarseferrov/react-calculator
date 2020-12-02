@@ -1,0 +1,37 @@
+.container nav{
+  text-align: center;
+  background-color: #ccc;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  color: #000;
+}
+.calc-body {
+  border: 2px solid #ccc;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+.result {
+  background-color: #ccc;
+  text-align: right;
+  padding: 30px  20px;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 2px;
+}
+.keypad button {
+  float: left;
+  width: 24%;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  margin: 2px;
+  background-color: #ddd;
+}
+
